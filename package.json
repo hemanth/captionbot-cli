@@ -1,6 +1,6 @@
 {
   "name": "captionbot-cli",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "captionbot-cli",
   "license": "MIT",
   "repository": "hemanth/captionbot-cli",
@@ -9,7 +9,9 @@
     "email": "hemanth.hm@gmail.com",
     "url": "h3manth.com"
   },
-  "bin": {"captionbot":"./cli.js"},
+  "bin": {
+    "captionbot": "./cli.js"
+  },
   "engines": {
     "node": ">=4"
   },
