@@ -5,11 +5,11 @@ var captionbotCli = require('./');
 
 var cli = meow([
 	'Usage',
-	'  $ captionbot-cli [url]',
+	'  $ captionbot [url]',
 	'',
 	'Examples',
-	'  $ captionbot-cli http://imgur.com/B7a15F5.jpg',
-	'  unicorns & rainbows'
+	'  $ captionbot http://imgur.com/B7a15F5.jpg',
+	'   I think it\'s a dog in the snow.'
 ]);
 
 captionbotCli(cli.input[0])

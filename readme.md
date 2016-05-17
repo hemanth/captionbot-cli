@@ -24,13 +24,13 @@ $ npm install --global captionbot-cli
 ```
 
 ```
-$ captionbot-cli --help
+$ captionbot --help
 
   Usage
-    captionbot-cli [URL]
+    captionbot [URL]
 
   Examples
-    $ captionbot-cli http://imgur.com/B7a15F5.jpg
+    $ captionbot http://imgur.com/B7a15F5.jpg
     I think it's a dog in the snow.
 ```
 

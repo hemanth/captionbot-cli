@@ -9,7 +9,7 @@
     "email": "hemanth.hm@gmail.com",
     "url": "h3manth.com"
   },
-  "bin": "cli.js",
+  "bin": {"captionbot":"./cli.js"},
   "engines": {
     "node": ">=4"
   },
